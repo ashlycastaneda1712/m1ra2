@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+<body>
+    <header>
+        <h6 style="text-align: right;">Instituto Técnico de Capacitación y Productividad - INTECAP <br>
+            Centro de Capacitación en Tecnologías de la Información y las Comunicaciones - TIC ́s <br>
+            Desarrollador FullStack</h6>
+        <hr>
+    </header>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="conceptos.html">Conceptos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tablas.html">Tablas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="componentes.html">Componentes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cuadricula.html">Cuadricula</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1 style="text-align: center;">Actividad para desarrollar habilidades y destrezas</h1>
+        <h4 style="text-align: center;">Introducción a Framework CSS y JS (Bootstrap)</h4>
+        <h5>Botones</h5>
+        <button type="button" class="btn btn-outline-warning">Ejemplo 1</button>
+        <p class="d-inline-flex gap-1">
+            <button type="button" class="btn" data-bs-toggle="button">Ejemplo 2</button>
+        </p>
+        <button type="button" class="btn btn-primary btn-lg">Ejemplo 3</button>
+        <button type="button" class="btn btn-secondary btn-sm">Ejemplo 4</button>
+        <button type="button" class="btn btn-primary"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Ejemplo
+            5</button>
+        <br><br><br>
+        <h5>Grupos de botones</h5>
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="button">Grupo 1</button>
+            <button class="btn btn-primary" type="button">Grupo 1</button>
+        </div>
+        <br>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-secondary" type="button">Grupo 2</button>
+            <button class="btn btn-secondary" type="button">Grupo 2</button>
+        </div>
+        <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-warning" type="button">Grupo 3</button><br>
+            <button class="btn btn-warning" type="button">Grupo 3</button>
+        </div><br>
+        <div class="d-grid gap-2">
+            <button class="btn btn-dark" type="button"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Grupo
+                4</button>
+            <button class="btn btn-dark" type="button"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Grupo
+                4</button>
+        </div><br>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="class=" btn btn-outline-secondary type="button">Grupo 5</button>
+            <button class="class=" btn btn-outline-secondary type="button">Grupo 5</button>
+        </div>
+        <br><br><br>
+        <h5>Cards</h5>
+        <div style="display: flex;">
+            <div class="card" style="width: 18rem;">
+                <img src="https://img.freepik.com/vector-premium/hola-hola-letras-frase-aisladas-blanco-vector-diseno-efecto-texto-colorido-texto-o-inscripciones-ingles-diseno-moderno-creativo-tiene-colores-rojo-naranja-amarillo_7280-8239.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ejemplo 1</h5>
+                    <p class="card-text">Este es el primer ejemplo de las Card (tarjetas)</p>
+                    <a href="#" class="btn btn-primary">ejemplo</a>
+                </div>
+            </div>
+            <br><br>
+            <div class="card" style="width: 18rem;">
+                <img src="https://img.freepik.com/vector-premium/hola-hola-letras-frase-aisladas-blanco-vector-diseno-efecto-texto-colorido-texto-o-inscripciones-ingles-diseno-moderno-creativo-tiene-colores-rojo-naranja-amarillo_7280-8239.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Titulo</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium totam,
+                        tempora
+                        necessitatibus illo pariatur quos voluptatibus eos, sint libero maiores dolor voluptatem ratione
+                        laborum vero aliquid exercitationem. Tenetur, quibusdam cupiditate.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Un articulo</li>
+                    <li class="list-group-item">Un segundo artículo</li>
+                    <li class="list-group-item">Un tercer elemento</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Enlace de la tarjeta</a>
+                    <a href="#" class="card-link">Otro enlace</a>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+        <div class="card">
+            <div class="card-header">
+                Featured
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <br><br>
+        <div class="card">
+            <div class="card-header">
+                Quote
+            </div>
+            <div class="card-body">
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>A well-known quote, contained in a blockquote element.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <br><br>
+        <div class="card text-center">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="true" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="container my-4">
+            <h5>Collapse</h5>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#coll1">Básico</button>
+            <div class="collapse mt-2" id="coll1">
+                <div class="card card-body">Contenido colapsable 1.</div>
+            </div>
+
+            <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                data-bs-target="#coll2">Éxito</button>
+            <div class="collapse mt-2" id="coll2">
+                <div class="card card-body border-success">Contenido colapsable 2.</div>
+            </div>
+
+            <a class="btn btn-warning" data-bs-toggle="collapse" href="#coll3">Enlace</a>
+            <div class="collapse mt-2" id="coll3">
+                <div class="card card-body border-warning">Contenido colapsable 3.</div>
+            </div>
+
+            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#coll4">Oscuro</button>
+            <div class="collapse mt-2" id="coll4">
+                <div class="card card-body bg-dark text-white">Contenido colapsable 4.</div>
+            </div>
+
+            <button class="btn btn-danger" type="button" data-bs-toggle="collapse"
+                data-bs-target=".multi-collapse">Alternar Ambos</button>
+            <div class="row mt-2">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="coll5a">
+                        <div class="card card-body">Parte A</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="coll5b">
+                        <div class="card card-body">Parte B</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-4">
+            <h2>Dropdowns</h2>
+            <div class="dropdown d-inline">
+                <button class="btn btn-primary dropdown-toggle" type="button"
+                    data-bs-toggle="dropdown">Primario</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Opción 1</a></li>
+                </ul>
+            </div>
+            <div class="dropdown d-inline">
+                <button class="btn btn-secondary dropdown-toggle" type="button"
+                    data-bs-toggle="dropdown">Secundario</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Opción 2</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger">Dividido</button>
+                <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown"></button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Opción 3</a></li>
+                </ul>
+            </div>
+            <div class="btn-group dropup">
+                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">Arriba</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Opción 4</a></li>
+                </ul>
+            </div>
+            <div class="dropdown d-inline">
+                <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">Oscuro</button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Opción 5</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container my-4">
+            <h2>List Group</h2>
+            <ul class="list-group mb-3">
+                <li class="list-group-item active">1. Lista con elemento activo</li>
+                <li class="list-group-item">2. Elemento estándar</li>
+                <li class="list-group-item disabled">3. Elemento deshabilitado</li>
+                <li class="list-group-item list-group-item-success">4. Estilo de éxito</li>
+                <li class="list-group-item d-flex justify-content-between">5. Con insignias <span
+                        class="badge bg-primary rounded-pill">14</span></li>
+            </ul>
+        </div>
+        <div class="container my-4">
+            <h2>Modales</h2>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#m1">Normal</button>
+            <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#m2">Centrado</button>
+            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#m3">Largo</button>
+            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#m4">Pequeño</button>
+            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m5">Pantalla Completa</button>
+
+            <div class="modal fade" id="m1" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">Modal 1</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="m2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">Modal 2 Centrado</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="m3" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body">Modal 3 Grande</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="m4" tabindex="-1">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-body">Modal 4 Pequeño</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="m5" tabindex="-1">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-body">Modal 5 Fullscreen <button class="btn btn-close"
+                                data-bs-dismiss="modal"></button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-4">
+            <h2>Navbars</h2>
+            <nav class="navbar navbar-dark bg-dark mb-2">
+                <div class="container-fluid"><span class="navbar-brand">Navbar Oscuro</span></div>
+            </nav>
+            <nav class="navbar navbar-dark bg-primary mb-2">
+                <div class="container-fluid"><span class="navbar-brand">Navbar Azul</span></div>
+            </nav>
+            <nav class="navbar navbar-light bg-light border mb-2">
+                <div class="container-fluid"><span class="navbar-brand">Navbar Claro</span></div>
+            </nav>
+            <nav class="navbar navbar-expand bg-info mb-2">
+                <div class="container-fluid">
+                    <div class="navbar-nav"><a class="nav-link active" href="#">Inicio</a></div>
+                </div>
+            </nav>
+            <nav class="navbar navbar-dark bg-success mb-2">
+                <div class="container-fluid"><span class="navbar-brand">Navbar Éxito</span></div>
+            </nav>
+        </div>
+        <div class="container my-4">
+            <h2>Popovers</h2>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="top"
+                data-bs-content="Arriba">Arriba</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-placement="right"
+                data-bs-content="Derecha">Derecha</button>
+            <button type="button" class="btn btn-success" data-bs-toggle="popover" data-bs-placement="bottom"
+                data-bs-content="Abajo">Abajo</button>
+            <button type="button" class="btn btn-danger" data-bs-toggle="popover" data-bs-placement="left"
+                data-bs-content="Izquierda">Izquierda</button>
+            <button type="button" class="btn btn-warning" data-bs-toggle="popover" title="Título"
+                data-bs-content="Contenido">Con Título</button>
+        </div>
+        <div class="container my-4">
+            <h2>Scrollspy</h2>
+            <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a class="nav-link" href="#scroll1">Uno</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scroll2">Dos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scroll3">Tres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scroll4">Cuatro</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scroll5">Cinco</a></li>
+                </ul>
+            </nav>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0"
+                style="height: 150px; overflow-y: scroll;">
+                <h4 id="scroll1">Sección 1</h4>
+                <p>Texto...</p>
+                <h4 id="scroll2">Sección 2</h4>
+                <p>Texto...</p>
+                <h4 id="scroll3">Sección 3</h4>
+                <p>Texto...</p>
+                <h4 id="scroll4">Sección 4</h4>
+                <p>Texto...</p>
+                <h4 id="scroll5">Sección 5</h4>
+                <p>Texto...</p>
+            </div>
+        </div>
+        <div class="container my-4">
+            <h2>Toasts</h2>
+            <div class="toast show mb-2">
+                <div class="toast-header"><strong class="me-auto">Toast Primario</strong></div>
+                <div class="toast-body">Cuerpo 1</div>
+            </div>
+            <div class="toast show mb-2 bg-primary text-white">
+                <div class="toast-body">Toast Azul Sólido</div>
+            </div>
+            <div class="toast show mb-2 border-success">
+                <div class="toast-header"><strong class="me-auto">Éxito</strong></div>
+            </div>
+            <div class="toast show mb-2">
+                <div class="toast-header"><img src="..." class="rounded me-2" alt=""><strong>Con Imagen</strong></div>
+            </div>
+            <div class="toast show bg-danger text-white">
+                <div class="toast-body">Error / Peligro</div>
+            </div>
+        </div>
+        <div class="container my-4">
+            <h2>Tooltips</h2>
+            <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Tooltip 1">Top</button>
+            <button class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Tooltip 2">Bottom</button>
+            <button class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="left"
+                title="Tooltip 3">Left</button>
+            <button class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="right"
+                title="Tooltip 4">Right</button>
+            <button class="btn btn-dark" data-bs-toggle="tooltip" data-bs-html="true"
+                title="<em>Tooltip</em> <u>HTML</u>">HTML</button>
+        </div>
+    </main>
+    <hr>
+    <p style="text-align: center;">"Acepta el Reto"</p>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Activa Tooltips
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (t) { return new bootstrap.Tooltip(t) })
+
+        // Activa Popovers
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (p) { return new bootstrap.Popover(p) })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+<body>
+    <header>
+        <h6 style="text-align: right;">Instituto Técnico de Capacitación y Productividad - INTECAP <br>
+            Centro de Capacitación en Tecnologías de la Información y las Comunicaciones - TIC ́s <br>
+            Desarrollador FullStack</h6>
+        <hr>
+    </header>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="conceptos.html">Conceptos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tablas.html">Tablas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="componentes.html">Componentes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="cuadricula.html">Cuadricula</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1 style="text-align: center;">Actividad para desarrollar habilidades y destrezas</h1>
+        <h4 style="text-align: center;">Introducción a Framework CSS y JS (Bootstrap)</h4>
+        <div class="container my-5 text-center">
+            <h2 class="mb-4">Ejemplos de Cuadrícula con Bootstrap</h2>
+
+            <div class="mb-5">
+                <h5>1. Columnas de igual ancho</h5>
+                <div class="row bg-light p-3 border">
+                    <div class="col border bg-primary text-white p-2">Columna 1</div>
+                    <div class="col border bg-primary text-white p-2">Columna 2</div>
+                    <div class="col border bg-primary text-white p-2">Columna 3</div>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <h5>2. Anchos específicos (col-8 y col-4)</h5>
+                <div class="row bg-light p-3 border">
+                    <div class="col-8 border bg-success text-white p-2">Ancho mayor (col-8)</div>
+                    <div class="col-4 border bg-success text-white p-2">Ancho menor (col-4)</div>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <h5>3. Columnas Responsive (col-md-4)</h5>
+                <p><small>Se apilan en móvil y se ponen en fila en pantallas medianas/grandes</small></p>
+                <div class="row bg-light p-3 border">
+                    <div class="col-md-4 col-12 border bg-warning p-2">Caja A</div>
+                    <div class="col-md-4 col-12 border bg-warning p-2">Caja B</div>
+                    <div class="col-md-4 col-12 border bg-warning p-2">Caja C</div>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <h5>4. Alineación Vertical (align-items-center)</h5>
+                <div class="row align-items-center bg-light border" style="height: 150px;">
+                    <div class="col border bg-danger text-white p-2">Arriba</div>
+                    <div class="col border bg-danger text-white p-2">Centrado verticalmente</div>
+                    <div class="col border bg-danger text-white p-2">Abajo</div>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <h5>5. Anchos mixtos con Offset (Empujado)</h5>
+                <div class="row bg-light p-3 border text-start">
+                    <div class="col-md-4 border bg-dark text-white p-2">Inicio</div>
+                    <div class="col-md-4 offset-md-4 border bg-dark text-white p-2 text-end">Final (con offset)</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <p style="text-align: center;">"Acepta el Reto"</p>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
