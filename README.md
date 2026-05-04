@@ -24,7 +24,4 @@ Este proyecto consiste en la creación de un sitio web multipágina utilizando e
 *   **Página 3 (Tablas):** Muestra al menos 5 ejemplos de tablas con distintos diseños y clases de Bootstrap (striped, hovered, bordered, etc.).
 *   **Página 4 (Componentes):** Demostración de diversos elementos de Bootstrap como Modals, Tooltips, Popovers, Toasts, Dropdowns y Navbars.
 *   **Página 5 (Cuadrícula):** Exhibición de 5 ejemplos del sistema de **Grid**, utilizando diferentes tamaños de columnas y alineaciones para demostrar la capacidad responsiva.
-
----
-**Desarrollado por:** Ashly Angelique Castañeda Hernández  
-**Frase:** *"Acepta el Reto"*
+  
